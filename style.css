@@ -9,6 +9,7 @@ body {
 
   height: 100vh;
   line-height: 28px;
+  
 }
 
 #page {
@@ -28,6 +29,7 @@ nav {
 
   align-items: center;
   padding-top: 71px;
+  
 }
 
 ul {
@@ -47,6 +49,12 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+    font-weight: bold;
+    color: #00BFA6;
+}
+
+
 h1{
   font-size: 36px;
   line-height: 40px;
@@ -55,11 +63,14 @@ h1{
 }
 
 main {
+  margin: 107px auto 0px;
+  width: 1092px;
+
   display: flex;
   text-align: center;
-
   flex-direction: row-reverse;
   justify-content: space-between;
+  gap: 80px;
 }
 
 section span {
@@ -74,4 +85,23 @@ section p {
 footer {
   font-family: "JetBrains Mono", monospace;
   color: #fff;
+
+  text-align: center;
+}
+
+footer p{
+  margin: 27px auto 23px;
+}
+
+.line{
+    margin: 155px auto 0;
+    height: 0px;
+    width: 568px;
+    border: 1px solid #00BFA6;
+}
+
+#padlock {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
 }
